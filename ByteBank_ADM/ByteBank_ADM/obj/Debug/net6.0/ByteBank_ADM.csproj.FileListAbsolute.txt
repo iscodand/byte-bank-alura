@@ -1,0 +1,30 @@
+C:\Users\SN00101397\source\repos\ByteBank_ADM\ByteBank_ADM\bin\Debug\net6.0\ByteBank_ADM.exe
+C:\Users\SN00101397\source\repos\ByteBank_ADM\ByteBank_ADM\bin\Debug\net6.0\ByteBank_ADM.deps.json
+C:\Users\SN00101397\source\repos\ByteBank_ADM\ByteBank_ADM\bin\Debug\net6.0\ByteBank_ADM.runtimeconfig.json
+C:\Users\SN00101397\source\repos\ByteBank_ADM\ByteBank_ADM\bin\Debug\net6.0\ByteBank_ADM.dll
+C:\Users\SN00101397\source\repos\ByteBank_ADM\ByteBank_ADM\bin\Debug\net6.0\ByteBank_ADM.pdb
+C:\Users\SN00101397\source\repos\ByteBank_ADM\ByteBank_ADM\obj\Debug\net6.0\ByteBank_ADM.csproj.AssemblyReference.cache
+C:\Users\SN00101397\source\repos\ByteBank_ADM\ByteBank_ADM\obj\Debug\net6.0\ByteBank_ADM.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SN00101397\source\repos\ByteBank_ADM\ByteBank_ADM\obj\Debug\net6.0\ByteBank_ADM.AssemblyInfoInputs.cache
+C:\Users\SN00101397\source\repos\ByteBank_ADM\ByteBank_ADM\obj\Debug\net6.0\ByteBank_ADM.AssemblyInfo.cs
+C:\Users\SN00101397\source\repos\ByteBank_ADM\ByteBank_ADM\obj\Debug\net6.0\ByteBank_ADM.csproj.CoreCompileInputs.cache
+C:\Users\SN00101397\source\repos\ByteBank_ADM\ByteBank_ADM\obj\Debug\net6.0\ByteBank_ADM.dll
+C:\Users\SN00101397\source\repos\ByteBank_ADM\ByteBank_ADM\obj\Debug\net6.0\refint\ByteBank_ADM.dll
+C:\Users\SN00101397\source\repos\ByteBank_ADM\ByteBank_ADM\obj\Debug\net6.0\ByteBank_ADM.pdb
+C:\Users\SN00101397\source\repos\ByteBank_ADM\ByteBank_ADM\obj\Debug\net6.0\ByteBank_ADM.genruntimeconfig.cache
+C:\Users\SN00101397\source\repos\ByteBank_ADM\ByteBank_ADM\obj\Debug\net6.0\ref\ByteBank_ADM.dll
+C:\Users\chico\Documents\C# - Estudos\byte-bank-alura\ByteBank_ADM\ByteBank_ADM\bin\Debug\net6.0\ByteBank_ADM.exe
+C:\Users\chico\Documents\C# - Estudos\byte-bank-alura\ByteBank_ADM\ByteBank_ADM\bin\Debug\net6.0\ByteBank_ADM.deps.json
+C:\Users\chico\Documents\C# - Estudos\byte-bank-alura\ByteBank_ADM\ByteBank_ADM\bin\Debug\net6.0\ByteBank_ADM.runtimeconfig.json
+C:\Users\chico\Documents\C# - Estudos\byte-bank-alura\ByteBank_ADM\ByteBank_ADM\bin\Debug\net6.0\ByteBank_ADM.dll
+C:\Users\chico\Documents\C# - Estudos\byte-bank-alura\ByteBank_ADM\ByteBank_ADM\bin\Debug\net6.0\ByteBank_ADM.pdb
+C:\Users\chico\Documents\C# - Estudos\byte-bank-alura\ByteBank_ADM\ByteBank_ADM\obj\Debug\net6.0\ByteBank_ADM.csproj.AssemblyReference.cache
+C:\Users\chico\Documents\C# - Estudos\byte-bank-alura\ByteBank_ADM\ByteBank_ADM\obj\Debug\net6.0\ByteBank_ADM.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\chico\Documents\C# - Estudos\byte-bank-alura\ByteBank_ADM\ByteBank_ADM\obj\Debug\net6.0\ByteBank_ADM.AssemblyInfoInputs.cache
+C:\Users\chico\Documents\C# - Estudos\byte-bank-alura\ByteBank_ADM\ByteBank_ADM\obj\Debug\net6.0\ByteBank_ADM.AssemblyInfo.cs
+C:\Users\chico\Documents\C# - Estudos\byte-bank-alura\ByteBank_ADM\ByteBank_ADM\obj\Debug\net6.0\ByteBank_ADM.csproj.CoreCompileInputs.cache
+C:\Users\chico\Documents\C# - Estudos\byte-bank-alura\ByteBank_ADM\ByteBank_ADM\obj\Debug\net6.0\ByteBank_ADM.dll
+C:\Users\chico\Documents\C# - Estudos\byte-bank-alura\ByteBank_ADM\ByteBank_ADM\obj\Debug\net6.0\refint\ByteBank_ADM.dll
+C:\Users\chico\Documents\C# - Estudos\byte-bank-alura\ByteBank_ADM\ByteBank_ADM\obj\Debug\net6.0\ByteBank_ADM.pdb
+C:\Users\chico\Documents\C# - Estudos\byte-bank-alura\ByteBank_ADM\ByteBank_ADM\obj\Debug\net6.0\ByteBank_ADM.genruntimeconfig.cache
+C:\Users\chico\Documents\C# - Estudos\byte-bank-alura\ByteBank_ADM\ByteBank_ADM\obj\Debug\net6.0\ref\ByteBank_ADM.dll
