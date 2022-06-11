@@ -10,23 +10,26 @@ Console.WriteLine("Boas Vindas ao ByteBank ADM!");
 
 BonificationManager manager = new BonificationManager();
 
-Employee employee1 = new Operator();
-employee1.EmployeeName = "Isco";
-employee1.EmployeeCPF = "1234567890-1";
-employee1.EmployeeSalary = 1200;
+Operator operator1 = new Operator("12345678901");
+operator1.EmployeeName = "Isco";
 
-Employee director1 = new Director();
+Director director1 = new Director("987654321");
 director1.EmployeeName = "JV";
-director1.EmployeeCPF = "1234567890-2";
-director1.EmployeeSalary = 3000;
 
+Designer designer1 = new Designer("34763473423");
+designer1.EmployeeName = "Gui";
+
+AccountManager accmanager1 = new AccountManager("51231232323");
+accmanager1.EmployeeName = "Roberto";
+
+manager.Register(operator1);
 manager.Register(director1);
-manager.Register(employee1);
+manager.Register(designer1);
+manager.Register(accmanager1);
 
-employee1.GetBonification();
-director1.GetBonification();
-
-Console.WriteLine(manager.GetTotalBonification());
-
+Console.WriteLine(operator1.EmployeeSalary);
+Console.WriteLine(director1.EmployeeSalary);
+Console.WriteLine(designer1.EmployeeSalary);
+Console.WriteLine(accmanager1.EmployeeSalary);
 
 Console.ReadKey();

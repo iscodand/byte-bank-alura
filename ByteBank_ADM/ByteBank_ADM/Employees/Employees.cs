@@ -7,26 +7,26 @@ using ByteBank_ADM.Utilitaries;
 
 namespace ByteBank_ADM.Employees
 {
-    public class Employee
+    public abstract class Employee
     {
-        // id = 0 --> Diretor
-        // id = 1 --> Funcionário Comum
-        // id = 2 --> Dev
+        public static int totalEmployees { get; private set; }
 
-        // private int employeeId;
+        public Employee(string cpf, double salary)
+        {
+            this.EmployeeCPF = cpf;
+            this.EmployeeSalary = salary;
+
+            Console.WriteLine($"Criando um Funcionário!");
+            totalEmployees++;
+        }
 
         public string EmployeeName { get; set; }
-        public string EmployeeCPF { get; set; }
-        public double EmployeeSalary { get; set; }
 
-        public virtual double GetBonification()
-        {
-            return EmployeeSalary * 0.1;
-        }
+        public string EmployeeCPF { get; private set; }
 
-        public virtual double GetAward()
-        {
-            return EmployeeSalary * 0.2;
-        }
+        public double EmployeeSalary { get; protected set; }
+
+        public abstract double GetBonification();
+        public abstract void GetAward();
     }
 }

@@ -1,7 +1,7 @@
 ﻿using System;
-using bytebank.Titular;
+using ByteBankApp.Titular;
 
-namespace bytebank.Account
+namespace ByteBankApp.BankAccounts
 {
     public class Account
     {
@@ -40,11 +40,10 @@ namespace bytebank.Account
             }
         }
 
-        private double accountLimit;
+        private double accountLimit = 1500;
         public double AccountLimit
         {
             get { return accountLimit; }
-            set { accountLimit = value; }
         }
 
         public string AgencyName { get; set; }
@@ -73,7 +72,7 @@ namespace bytebank.Account
             TotalAccounts += 1;
         }
 
-        public static int TotalAccounts {get ; set; }
+        public static int TotalAccounts { get ; set; }
 
         private bool WithdrawDisponible(double value)
         {

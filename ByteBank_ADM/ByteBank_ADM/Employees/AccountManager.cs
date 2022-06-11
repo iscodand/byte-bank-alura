@@ -6,18 +6,18 @@ using System.Threading.Tasks;
 
 namespace ByteBank_ADM.Employees
 {
-    public class Operator : Employee
+    public class AccountManager : Employee
     {
-        public Operator(string cpf) : base(cpf, 2000) { }
+        public AccountManager(string cpf) : base(cpf, 4000) { }
 
         public override double GetBonification()
         {
-            return EmployeeSalary * 0.10;
+            return EmployeeSalary * 0.2;
         }
 
         public override void GetAward()
         {
-            this.EmployeeSalary *= 1.15;
+            this.EmployeeSalary *= 1.05;
         }
     }
 }

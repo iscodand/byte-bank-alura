@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\ByteBank_ADM"
+    "\\ByteBank_ADM",
+    "\\ByteBank_ADM\\Employees",
+    "\\ByteBank_ADM\\Utilitaries"
   ],
   "SelectedNode": "\\ByteBank_ADM.sln",
   "PreviewInSolutionExplorer": false

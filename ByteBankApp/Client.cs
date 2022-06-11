@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace bytebank.Titular
+namespace ByteBankApp.Titular
 {
     public class Client
     {
