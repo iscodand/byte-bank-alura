@@ -7,7 +7,7 @@ using ByteBank_ADM.InternalSystem;
 
 namespace ByteBank_ADM.Employees
 {
-    public class Director : AuthenticateUser
+    public class Director : AuthenticableEmployee
     {
         public Director(string cpf) : base(cpf, 5000) { }
 

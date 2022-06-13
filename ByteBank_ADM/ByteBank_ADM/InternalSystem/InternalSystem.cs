@@ -3,16 +3,15 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using ByteBank_ADM.Employees;
 
 namespace ByteBank_ADM.InternalSystem
 {
     public class InternalSystem
     {
-        public bool Login(AuthenticateUser user, string password)
+        public bool Login(IAuthenticateUser user, string login, string password)
         {
 
-            bool AuthenticateUser = user.Authenticate(password);
+            bool AuthenticateUser = user.Authenticate(login, password);
 
             if (AuthenticateUser == true)
             {
@@ -21,7 +20,7 @@ namespace ByteBank_ADM.InternalSystem
             }
             else
             {
-                Console.WriteLine("Senha Incorreta!");
+                Console.WriteLine("Senha e/ou Usuário Incorretos!");
                 return false;
             }
         }

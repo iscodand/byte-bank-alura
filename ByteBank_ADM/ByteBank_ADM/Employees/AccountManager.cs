@@ -7,7 +7,7 @@ using ByteBank_ADM.InternalSystem;
 
 namespace ByteBank_ADM.Employees
 {
-    public class AccountManager : AuthenticateUser
+    public class AccountManager : AuthenticableEmployee
     {
         public AccountManager(string cpf) : base(cpf, 4000) { }
 

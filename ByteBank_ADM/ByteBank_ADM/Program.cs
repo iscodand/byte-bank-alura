@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using ByteBank_ADM.Employees;
 using ByteBank_ADM.Utilitaries;
 using ByteBank_ADM.InternalSystem;
+using ByteBank_ADM.BusinessPartners;
 
 Console.WriteLine("Boas Vindas ao ByteBank ADM!");
 
@@ -42,18 +43,23 @@ void ManagerTest()
 
 void LoginTest()
 {
-
     Director isco = new Director("354.341.656-90");
+    isco.InternalSystemLogin = "isco-123x";
     isco.InternalSystemPassword = "123";
 
-    system.Login(isco, "123");
+    system.Login(isco, "isco-123x", "123");
 
     AccountManager jose = new AccountManager("767.234.645-00");
+    jose.InternalSystemLogin = "jose-321x";
     jose.InternalSystemPassword = "321";
 
-    system.Login(jose, "321");
+    system.Login(jose, "jose-321x", "321");
+
+    BusinessPartners mario = new BusinessPartners();
+    mario.InternalSystemLogin = "mario534-b";
+    mario.InternalSystemPassword = "543";
+
+    system.Login(mario, "mario534-b", "543");
 }
-
-
 
 Console.ReadKey();
