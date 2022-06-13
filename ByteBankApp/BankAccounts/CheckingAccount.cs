@@ -8,13 +8,8 @@ namespace ByteBankApp.BankAccounts
 {
     public class CheckingAccount : Account
     {
-        private double accountLimit;
-        public new double AccountLimit
-        {
-            get { return accountLimit;  }
-            set { accountLimit = value; }
-        }
+        public new double AccountLimit { get; set; }
 
-        public CheckingAccount(string accName, int accNumber) : base(accName, accNumber) {   }
+        public CheckingAccount(string accName, int agcNumber) : base(accName, agcNumber, 2000) { }
     }
 }

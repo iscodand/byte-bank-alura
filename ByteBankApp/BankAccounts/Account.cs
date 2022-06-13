@@ -1,16 +1,20 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 using ByteBankApp.Titular;
 
 namespace ByteBankApp.BankAccounts
 {
-    public class Account
+    public abstract class Account
     {
         public Client AccountTitular { get; set; }
 
         private string accountName;
         public string AccountName {
             get { return accountName; }
-            set
+            protected set
             {
                 if (value == null)
                 {
@@ -23,28 +27,9 @@ namespace ByteBankApp.BankAccounts
             }
         }
 
-        private double accountBalance;
-        public double AccountBalance
-        {
-            get { return accountBalance; }
-            set
-            {
-                if (value < 0)
-                {
-                    Console.WriteLine("Saldo não pode ser menor que zero!");
-                }
-                else
-                {
-                    accountBalance = value;
-                }
-            }
-        }
+        public double AccountBalance { get; private set; }
 
-        private double accountLimit = 1500;
-        public double AccountLimit
-        {
-            get { return accountLimit; }
-        }
+        public double AccountLimit { get; set; }
 
         public string AgencyName { get; set; }
 
@@ -52,7 +37,7 @@ namespace ByteBankApp.BankAccounts
         public int AgencyNumber
         {
             get { return agencyNumber; }
-            set
+            protected set
             {
                 if (value <= 0)
                 {
@@ -65,10 +50,12 @@ namespace ByteBankApp.BankAccounts
             }
         }
 
-        public Account(string accName, int accNumber)
+        public Account(string accName, int agcNumber, double accLimit)
         {
             AccountName = accName;
-            AgencyNumber = accNumber;
+            AgencyNumber = agcNumber;
+            AccountLimit = accLimit;
+
             TotalAccounts += 1;
         }
 

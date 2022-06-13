@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using ByteBank_ADM.InternalSystem;
 
 namespace ByteBank_ADM.Employees
 {
-    public class Director : Employee
+    public class Director : AuthenticateUser
     {
         public Director(string cpf) : base(cpf, 5000) { }
 

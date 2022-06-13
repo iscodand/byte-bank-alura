@@ -16,7 +16,7 @@ namespace ByteBank_ADM.Employees
             this.EmployeeCPF = cpf;
             this.EmployeeSalary = salary;
 
-            Console.WriteLine($"Criando um Funcionário!");
+            Console.WriteLine("Criando um Funcionário!");
             totalEmployees++;
         }
 
