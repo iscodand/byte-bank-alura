@@ -28,11 +28,8 @@ namespace ByteBankApp.BankAccounts
         }
 
         public double AccountBalance { get; private set; }
-
         public double AccountLimit { get; set; }
-
         public string AgencyName { get; set; }
-
         private int agencyNumber;
         public int AgencyNumber
         {

@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\chico\\.nuget\\packages\\": {}
+    "C:\\Users\\SN00101397\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\chico\\Documents\\C# - Estudos\\byte-bank-alura\\ByteBankApp\\ByteBankApp.csproj",
+      "projectUniqueName": "C:\\Users\\SN00101397\\source\\repos\\byte-bank-alura\\ByteBank\\ByteBankApp\\ByteBankApp\\ByteBankApp.csproj",
       "projectName": "ByteBankApp",
-      "projectPath": "C:\\Users\\chico\\Documents\\C# - Estudos\\byte-bank-alura\\ByteBankApp\\ByteBankApp.csproj",
-      "packagesPath": "C:\\Users\\chico\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\chico\\Documents\\C# - Estudos\\byte-bank-alura\\ByteBankApp\\obj\\",
+      "projectPath": "C:\\Users\\SN00101397\\source\\repos\\byte-bank-alura\\ByteBank\\ByteBankApp\\ByteBankApp\\ByteBankApp.csproj",
+      "packagesPath": "C:\\Users\\SN00101397\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\SN00101397\\source\\repos\\byte-bank-alura\\ByteBank\\ByteBankApp\\ByteBankApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\chico\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\SN00101397\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -60,7 +60,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }
