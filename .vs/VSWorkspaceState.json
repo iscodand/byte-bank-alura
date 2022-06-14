@@ -1,8 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\ByteBank_ADM"
+    "\\ByteBank_ADM",
+    "\\ByteBank_ADM\\ByteBank_ADM",
+    "\\ByteBank_ADM\\ByteBank_ADM\\InternalSystem"
   ],
-  "SelectedNode": "\\ByteBank_ADM\\ByteBank_ADM.sln",
+  "SelectedNode": "\\ByteBank_ADM\\ByteBank_ADM\\InternalSystem\\IAuthenticateUser.cs",
   "PreviewInSolutionExplorer": false
 }
