@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8olL0Z2O/7ecQKJpSG7Ki433QF3fWsO8+QR9ewz2UKIDO/O7v8yXIrtcrR7vYxVoE311ObqNOblxIKo2YFeXHQ==",
+  "dgSpecHash": "dpsVurewXIPIA3xIOK6sgAIqWH/bawTuJvyY+Akh3DpeiesFevsu4+kPXobjGBvwZUxFeOkv7y4msx0v2C9yBg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\chico\\Documents\\C# - Estudos\\byte-bank-alura\\ByteBankApp\\ByteBankApp.csproj",
+  "projectFilePath": "C:\\Users\\chico\\Documents\\C# - Estudos\\byte-bank-alura\\ByteBank\\ByteBankApp\\ByteBankApp\\ByteBankApp.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

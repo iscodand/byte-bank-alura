@@ -4,51 +4,26 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using ByteBankApp.Titular;
+using ByteBankApp.Exceptions;
 
 namespace ByteBankApp.BankAccounts
 {
     public abstract class Account
     {
         public Client AccountTitular { get; set; }
+        public string AccountName { get; }
 
-        private string accountName;
-        public string AccountName {
-            get { return accountName; }
-            protected set
-            {
-                if (value == null)
-                {
-                    Console.WriteLine("Nome da Conta não pode estar vazio!");
-                }
-                else
-                {
-                    accountName = value;
-                }
-            }
-        }
-
-        public double AccountBalance { get; private set; }
-
-        public double AccountLimit { get; set; }
-
-        public string AgencyName { get; set; }
-
-        private int agencyNumber;
-        public int AgencyNumber
+        private double _accountBalance = 100;
+        public double AccountBalance 
         {
-            get { return agencyNumber; }
-            protected set
-            {
-                if (value <= 0)
-                {
-                    Console.WriteLine("A conta não pode ser menor ou igual a zero!");
-                }
-                else
-                {
-                    agencyNumber = value;
-                }
-            }
+            get { return _accountBalance; }
+            private set { _accountBalance = value;  }
         }
+
+        public double AccountLimit { get; protected set; }
+        public string AgencyName { get; set; }
+        public int AgencyNumber { get; }
+
 
         public Account(string accName, int agcNumber, double accLimit)
         {
@@ -56,11 +31,27 @@ namespace ByteBankApp.BankAccounts
             AgencyNumber = agcNumber;
             AccountLimit = accLimit;
 
-            TotalAccounts += 1;
+            // OperatingTax = 30 / TotalAccounts;
+
+            TotalAccounts++;
         }
 
-        public static int TotalAccounts { get ; set; }
+        // Refatorar Código
+        public static double OperatingTax { get; private set; }
 
+        private int TotalAccounts;
+
+        public void RegisterAccount(Account account)
+        {
+            this.TotalAccounts++;
+        }
+
+        public int GetTotalAccounts()
+        {
+            return this.TotalAccounts;
+        }
+
+        // Operações Bancárias
         private bool WithdrawDisponible(double value)
         {
             if (AccountBalance < value)
@@ -87,7 +78,7 @@ namespace ByteBankApp.BankAccounts
             }
             else
             {
-                Console.WriteLine("Saque Indisponível!");
+                throw new InsufficientBalanceException(); 
             }
         }
 
@@ -118,6 +109,7 @@ namespace ByteBankApp.BankAccounts
             else
             {
                 Console.WriteLine("Transferência Malsucedida!");
+
             }
         }
     }

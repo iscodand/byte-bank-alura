@@ -43,3 +43,33 @@ C:\Users\chico\Documents\C# - Estudos\byte-bank-alura\ByteBankApp\obj\Debug\net6
 C:\Users\chico\Documents\C# - Estudos\byte-bank-alura\ByteBankApp\obj\Debug\net6.0\ByteBankApp.pdb
 C:\Users\chico\Documents\C# - Estudos\byte-bank-alura\ByteBankApp\obj\Debug\net6.0\ByteBankApp.genruntimeconfig.cache
 C:\Users\chico\Documents\C# - Estudos\byte-bank-alura\ByteBankApp\obj\Debug\net6.0\ref\ByteBankApp.dll
+C:\Users\SN00101397\source\repos\byte-bank-alura\ByteBank\ByteBankApp\ByteBankApp\bin\Debug\net6.0\ByteBankApp.exe
+C:\Users\SN00101397\source\repos\byte-bank-alura\ByteBank\ByteBankApp\ByteBankApp\bin\Debug\net6.0\ByteBankApp.deps.json
+C:\Users\SN00101397\source\repos\byte-bank-alura\ByteBank\ByteBankApp\ByteBankApp\bin\Debug\net6.0\ByteBankApp.runtimeconfig.json
+C:\Users\SN00101397\source\repos\byte-bank-alura\ByteBank\ByteBankApp\ByteBankApp\bin\Debug\net6.0\ByteBankApp.dll
+C:\Users\SN00101397\source\repos\byte-bank-alura\ByteBank\ByteBankApp\ByteBankApp\bin\Debug\net6.0\ByteBankApp.pdb
+C:\Users\SN00101397\source\repos\byte-bank-alura\ByteBank\ByteBankApp\ByteBankApp\obj\Debug\net6.0\ByteBankApp.csproj.AssemblyReference.cache
+C:\Users\SN00101397\source\repos\byte-bank-alura\ByteBank\ByteBankApp\ByteBankApp\obj\Debug\net6.0\ByteBankApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SN00101397\source\repos\byte-bank-alura\ByteBank\ByteBankApp\ByteBankApp\obj\Debug\net6.0\ByteBankApp.AssemblyInfoInputs.cache
+C:\Users\SN00101397\source\repos\byte-bank-alura\ByteBank\ByteBankApp\ByteBankApp\obj\Debug\net6.0\ByteBankApp.AssemblyInfo.cs
+C:\Users\SN00101397\source\repos\byte-bank-alura\ByteBank\ByteBankApp\ByteBankApp\obj\Debug\net6.0\ByteBankApp.csproj.CoreCompileInputs.cache
+C:\Users\SN00101397\source\repos\byte-bank-alura\ByteBank\ByteBankApp\ByteBankApp\obj\Debug\net6.0\ByteBankApp.dll
+C:\Users\SN00101397\source\repos\byte-bank-alura\ByteBank\ByteBankApp\ByteBankApp\obj\Debug\net6.0\refint\ByteBankApp.dll
+C:\Users\SN00101397\source\repos\byte-bank-alura\ByteBank\ByteBankApp\ByteBankApp\obj\Debug\net6.0\ByteBankApp.pdb
+C:\Users\SN00101397\source\repos\byte-bank-alura\ByteBank\ByteBankApp\ByteBankApp\obj\Debug\net6.0\ByteBankApp.genruntimeconfig.cache
+C:\Users\SN00101397\source\repos\byte-bank-alura\ByteBank\ByteBankApp\ByteBankApp\obj\Debug\net6.0\ref\ByteBankApp.dll
+C:\Users\chico\Documents\C# - Estudos\byte-bank-alura\ByteBank\ByteBankApp\ByteBankApp\bin\Debug\net6.0\ByteBankApp.exe
+C:\Users\chico\Documents\C# - Estudos\byte-bank-alura\ByteBank\ByteBankApp\ByteBankApp\bin\Debug\net6.0\ByteBankApp.deps.json
+C:\Users\chico\Documents\C# - Estudos\byte-bank-alura\ByteBank\ByteBankApp\ByteBankApp\bin\Debug\net6.0\ByteBankApp.runtimeconfig.json
+C:\Users\chico\Documents\C# - Estudos\byte-bank-alura\ByteBank\ByteBankApp\ByteBankApp\bin\Debug\net6.0\ByteBankApp.dll
+C:\Users\chico\Documents\C# - Estudos\byte-bank-alura\ByteBank\ByteBankApp\ByteBankApp\bin\Debug\net6.0\ByteBankApp.pdb
+C:\Users\chico\Documents\C# - Estudos\byte-bank-alura\ByteBank\ByteBankApp\ByteBankApp\obj\Debug\net6.0\ByteBankApp.csproj.AssemblyReference.cache
+C:\Users\chico\Documents\C# - Estudos\byte-bank-alura\ByteBank\ByteBankApp\ByteBankApp\obj\Debug\net6.0\ByteBankApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\chico\Documents\C# - Estudos\byte-bank-alura\ByteBank\ByteBankApp\ByteBankApp\obj\Debug\net6.0\ByteBankApp.AssemblyInfoInputs.cache
+C:\Users\chico\Documents\C# - Estudos\byte-bank-alura\ByteBank\ByteBankApp\ByteBankApp\obj\Debug\net6.0\ByteBankApp.AssemblyInfo.cs
+C:\Users\chico\Documents\C# - Estudos\byte-bank-alura\ByteBank\ByteBankApp\ByteBankApp\obj\Debug\net6.0\ByteBankApp.csproj.CoreCompileInputs.cache
+C:\Users\chico\Documents\C# - Estudos\byte-bank-alura\ByteBank\ByteBankApp\ByteBankApp\obj\Debug\net6.0\ByteBankApp.dll
+C:\Users\chico\Documents\C# - Estudos\byte-bank-alura\ByteBank\ByteBankApp\ByteBankApp\obj\Debug\net6.0\refint\ByteBankApp.dll
+C:\Users\chico\Documents\C# - Estudos\byte-bank-alura\ByteBank\ByteBankApp\ByteBankApp\obj\Debug\net6.0\ByteBankApp.pdb
+C:\Users\chico\Documents\C# - Estudos\byte-bank-alura\ByteBank\ByteBankApp\ByteBankApp\obj\Debug\net6.0\ByteBankApp.genruntimeconfig.cache
+C:\Users\chico\Documents\C# - Estudos\byte-bank-alura\ByteBank\ByteBankApp\ByteBankApp\obj\Debug\net6.0\ref\ByteBankApp.dll

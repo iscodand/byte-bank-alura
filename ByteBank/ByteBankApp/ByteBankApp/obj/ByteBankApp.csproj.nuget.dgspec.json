@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\chico\\Documents\\C# - Estudos\\byte-bank-alura\\ByteBankApp\\ByteBankApp.csproj": {}
+    "C:\\Users\\chico\\Documents\\C# - Estudos\\byte-bank-alura\\ByteBank\\ByteBankApp\\ByteBankApp\\ByteBankApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\chico\\Documents\\C# - Estudos\\byte-bank-alura\\ByteBankApp\\ByteBankApp.csproj": {
+    "C:\\Users\\chico\\Documents\\C# - Estudos\\byte-bank-alura\\ByteBank\\ByteBankApp\\ByteBankApp\\ByteBankApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\chico\\Documents\\C# - Estudos\\byte-bank-alura\\ByteBankApp\\ByteBankApp.csproj",
+        "projectUniqueName": "C:\\Users\\chico\\Documents\\C# - Estudos\\byte-bank-alura\\ByteBank\\ByteBankApp\\ByteBankApp\\ByteBankApp.csproj",
         "projectName": "ByteBankApp",
-        "projectPath": "C:\\Users\\chico\\Documents\\C# - Estudos\\byte-bank-alura\\ByteBankApp\\ByteBankApp.csproj",
+        "projectPath": "C:\\Users\\chico\\Documents\\C# - Estudos\\byte-bank-alura\\ByteBank\\ByteBankApp\\ByteBankApp\\ByteBankApp.csproj",
         "packagesPath": "C:\\Users\\chico\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\chico\\Documents\\C# - Estudos\\byte-bank-alura\\ByteBankApp\\obj\\",
+        "outputPath": "C:\\Users\\chico\\Documents\\C# - Estudos\\byte-bank-alura\\ByteBank\\ByteBankApp\\ByteBankApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\chico\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\chico\\Documents\\C# - Estudos\\byte-bank-alura\\ByteBank_ADM\\ByteBank_ADM\\ByteBank_ADM.csproj": {}
+    "C:\\Users\\SN00101397\\source\\repos\\byte-bank-alura\\ByteBank\\ByteBank_ADM\\ByteBank_ADM\\ByteBank_ADM.csproj": {}
   },
   "projects": {
-    "C:\\Users\\chico\\Documents\\C# - Estudos\\byte-bank-alura\\ByteBank_ADM\\ByteBank_ADM\\ByteBank_ADM.csproj": {
+    "C:\\Users\\SN00101397\\source\\repos\\byte-bank-alura\\ByteBank\\ByteBank_ADM\\ByteBank_ADM\\ByteBank_ADM.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\chico\\Documents\\C# - Estudos\\byte-bank-alura\\ByteBank_ADM\\ByteBank_ADM\\ByteBank_ADM.csproj",
+        "projectUniqueName": "C:\\Users\\SN00101397\\source\\repos\\byte-bank-alura\\ByteBank\\ByteBank_ADM\\ByteBank_ADM\\ByteBank_ADM.csproj",
         "projectName": "ByteBank_ADM",
-        "projectPath": "C:\\Users\\chico\\Documents\\C# - Estudos\\byte-bank-alura\\ByteBank_ADM\\ByteBank_ADM\\ByteBank_ADM.csproj",
-        "packagesPath": "C:\\Users\\chico\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\chico\\Documents\\C# - Estudos\\byte-bank-alura\\ByteBank_ADM\\ByteBank_ADM\\obj\\",
+        "projectPath": "C:\\Users\\SN00101397\\source\\repos\\byte-bank-alura\\ByteBank\\ByteBank_ADM\\ByteBank_ADM\\ByteBank_ADM.csproj",
+        "packagesPath": "C:\\Users\\SN00101397\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\SN00101397\\source\\repos\\byte-bank-alura\\ByteBank\\ByteBank_ADM\\ByteBank_ADM\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\chico\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\SN00101397\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -54,7 +54,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }
