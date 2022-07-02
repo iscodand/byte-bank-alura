@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace ByteBankApp.Exceptions
 {
-    public class InsufficientBalanceException : Exception
+    public class InsufficientBalanceException : FinancialOperationException
     {
+        public InsufficientBalanceException(string message) : base(message) { }
     }
 }

@@ -1,4 +1,5 @@
-﻿using System;
+﻿
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -24,6 +25,8 @@ namespace ByteBankApp.BankAccounts
         public string AgencyName { get; set; }
         public int AgencyNumber { get; }
 
+        public int WithdrawFailCounter { get; private set; }
+        public int TransferFailCounter { get; private set; }
 
         public Account(string accName, int agcNumber, double accLimit)
         {
@@ -74,11 +77,12 @@ namespace ByteBankApp.BankAccounts
             {
                 AccountBalance = AccountBalance - value;
                 Console.WriteLine("Saque Realizado!");
-                Console.WriteLine($"- R$ {value} -- {AccountTitular}");
+                Console.WriteLine($"Seu Saldo => R$ {AccountBalance}");
             }
             else
             {
-                throw new InsufficientBalanceException(); 
+                WithdrawFailCounter++;
+                throw new InsufficientBalanceException("Saldo Insuficiente!");
             }
         }
 
@@ -88,7 +92,7 @@ namespace ByteBankApp.BankAccounts
             {
                 Console.WriteLine("Depósito Realizado!");
                 AccountBalance = AccountBalance + value;
-                Console.WriteLine($"+ R$ {value} -- {AccountTitular}");
+                Console.WriteLine($"+ R$ {value}");
             }
             else
             {
@@ -98,18 +102,24 @@ namespace ByteBankApp.BankAccounts
 
         public void TranferMoney(double value, Account destiny)
         {
-            if (WithdrawDisponible(value) == true)
+            if (WithdrawDisponible(value) == false)
             {
-                AccountBalance = AccountBalance - value;
-                destiny.AccountBalance = destiny.AccountBalance + value;
-
-                Console.WriteLine("Transferência Realizada com Sucesso!");
-                Console.WriteLine($"+ R$ {value} -- {destiny.AccountBalance}");
+                try
+                {
+                    Withdraw(value);
+                }
+                catch (InsufficientBalanceException ex)
+                {
+                    TransferFailCounter++;
+                    throw new FinancialOperationException($"Transferência Malsucedida! {ex}");
+                }
             }
             else
             {
-                Console.WriteLine("Transferência Malsucedida!");
-
+                AccountBalance -= value;
+                destiny.AccountBalance += value;
+                Console.WriteLine("Transferência Realizada com Sucesso!");
+                Console.WriteLine($"+ R$ {value}");
             }
         }
     }
